@@ -11,7 +11,7 @@ public class Concurso {
 		listaUsuarios = new ArrayList<>();
 	}
 	
-	public void puntuar(Usuario usuario, Cuadro cuadro, int puntuacion) {
+	public int puntuar(Usuario usuario, Cuadro cuadro, int puntuacion) {
 		if(!listaUsuarios.contains(usuario)) {
 			System.out.println("Él usuario no existe, debe registrarse antes para puntuar");
 		}
@@ -20,7 +20,8 @@ public class Concurso {
 			System.out.println("La puntuación tiene que ser entre 0 y 5");
 		}
 		
-		cuadro.sumarPuntuacion(puntuacion);
+		
+		return cuadro.sumarPuntuacion(puntuacion);
 	}
 
 }
