@@ -33,6 +33,10 @@ public class Cuadro {
 		this.tamaño = tamaño;
 	}
 	
+	/***** MÉTODOS DE CLASE ******/
+	public int sumarPuntuacion(int puntuacion) {
+		return puntuacion;
+	}
 	
 	
 
