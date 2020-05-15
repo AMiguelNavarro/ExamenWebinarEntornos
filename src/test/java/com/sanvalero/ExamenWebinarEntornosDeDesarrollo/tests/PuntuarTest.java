@@ -20,5 +20,8 @@ public class PuntuarTest {
 		assertEquals(10, concurso.puntuar(usuario1, cuadro1, 10));
 
 	}
+	
+	// He tenido que modificar el Build path al JDK como hicimos ayer por discord, al hacer git status no aparece ningun cambio
+	// pongo estas líneas para poder hacer un commit
 
 }
